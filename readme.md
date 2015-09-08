@@ -6,16 +6,22 @@ whoSay.js is a VERY tiny JQuery plugins that creates user quote for your website
 Include files
 
 ```html
+<html>
 <header>
-<link rel="stylesheet" href="./dist/who-say.min.css" media="screen" charset="utf-8">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
-<script src="./dist/who-say.min.js" charset="utf-8"></script>
-<script type="text/javascript">
-  $(document).ready(function() {
-    $('.quote').whoSay();
-  });
-</script>
+  <link rel="stylesheet" href="./dist/who-say.min.css" media="screen" charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
+  <script src="./dist/who-say.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.quote').whoSay();
+    });
+  </script>
 </header>
+<body>
+  <div class="quote">
+  </div>
+</body>
+</html>
 ```
 options
 ```javascript
