@@ -1,7 +1,7 @@
 whoSay.js
 ==
-whoSay.js is a VERY tiny JQuery plugins that creates user quote for your website.
-
+whoSay.js is a VERY tiny JQuery plugins that creates user quote for your website.  
+[Simple Demo](http://lockys.github.io/WhoSayJS/)
 ### Usage
 Include files
 
