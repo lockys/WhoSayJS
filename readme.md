@@ -44,5 +44,9 @@ var options = {
 };
 $('.quote').whoSay(options);
 ```
+### TODOs
+- [ ]More themes
+- [ ]RWD Supported
+
 ### License
 MIT @ Hao-Wei Jeng
